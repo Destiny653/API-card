@@ -190,7 +190,7 @@
 }
 
 
- .levels {
+.levels {
     font-size: 18px;
     font-family: Poppins;
     color: #000;
@@ -204,9 +204,13 @@ Screen sizing
 
 @media all and (width < 868px) {
 
+
     .popParent {
         margin: auto;
-       padding-left: 20px;
+        padding-left: 20px;
+        width: 98%;
+        left: 4%;
+
     }
 
     .displayPop {
@@ -233,10 +237,11 @@ Screen sizing
         padding-left: 10px;
         height: 90%;
         width: 45%;
-            img {
-                width: 200px;
-                height: 160px;
-            }
+
+        img {
+            width: 200px;
+            height: 160px;
+        }
     }
 
     .detailsSet {
@@ -256,7 +261,7 @@ Screen sizing
     .imPop {
         width: 70%;
         height: 100%;
-    }    
+    }
 
 
     .imgSet {
@@ -269,6 +274,7 @@ Screen sizing
         margin: 10px 16px;
         height: 90%;
         width: 70%;
+
         img {
             width: 200px;
         }
@@ -279,7 +285,7 @@ Screen sizing
         width: 90%;
         margin: auto;
     }
-    
+
 }
 
 
@@ -288,12 +294,13 @@ Screen sizing
 
     .imPop {
         height: 70%;
-    }    
- 
+    }
+
     .card {
         margin: 10px 36px;
         height: 90%;
         width: 40%;
+
         img {
             width: 140px;
             height: 150px;
@@ -305,5 +312,5 @@ Screen sizing
         margin: auto;
     }
 
-   
+
 }
